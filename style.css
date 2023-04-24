@@ -1,0 +1,43 @@
+body{
+    margin-top: 0px;
+    background-color: skyblue;
+}
+
+#child{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin-left:500px;
+    margin-top:200px;
+    background-color: white;
+    width: 400px;
+    border-radius: 20%;
+    box-shadow: 3px 4px 5px crimson;
+}
+#child input{
+    width:120px;
+    height: 20px;
+    /* color:"blue" */
+}
+
+#child input:hover{
+    border-color:orange;
+}
+
+#res{
+    margin-top: 30px;
+}
+
+button{
+    width:30%;
+    height: 30px;
+    background-color: blue;
+    color:white
+}
+
+button:hover{
+    cursor: pointer;
+    color: orange;
+}
